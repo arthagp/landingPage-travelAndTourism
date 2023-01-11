@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../assets/icon.png" type="image/x-icon" />
+  <title>Travel & Tourism</title>
+  <link href="../src/dist/css/output.css" rel="stylesheet" />
+  <!-- Font Monstserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Hamburgers -->
+  <link href="../src/dist/css/hamburgers.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="navbar px-4 py-4">
+    <div class="container mx-auto">
+      <div class="navbar-box flex items-center justify-between">
+        <div class="header-logo items-center gap-x-2">
+          <img class="w-44" src="assets/Logo.png" alt="" srcset="" />
+        </div>
+        <!-- Jika md=medium maka hidden (didalam tailwind menggunakan min-width) (jadi jika ukuran medium keatas maka display flex)-->
+        <ul class="nav md:flex text-center opacity-80 font-bold gap-x-5 hidden">
+          <li><a class="hover:text-blue-500" href="#">Home</a></li>
+          <li><a class="hover:text-blue-500" href="#">About</a></li>
+          <li><a class="hover:text-blue-500" href="#">Experiences</a></li>
+          <li><a class="hover:text-blue-500" href="#">Packages</a></li>
+          <li><a class="hover:text-blue-500" href="#">Contact Us</a></li>
+          <li><a class="hover:text-blue-500" href="#">Blog</a></li>
+        </ul>
+        <button class="font-bold bg-blue-500 w-28 h-11 rounded-full text-white">
+          Book Now
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Heroes Section -->
+  <div class="h-100">
+    <div class="mx-auto max-w-7xl py-16 px-6">
+      <div class="container md:flex justify-between items-center">
+        <div class="heading">
+          <p class="text-3xl font-bold -tracking-tight text-gray-900 sm:text-4xl">
+            Let’s Enjoy Your Vacation <br />
+            with <span class="text-blue-500 italic">Nature</span>
+          </p>
+          <p class=" text-sm font-light -tracking-tight text-gray-900 py-4">
+            Are you planning a vacation to enjoy your free time? Looking for a
+            place to explore, <br />
+            eat and enjoy your vacation with your loved ones or Are you a solo
+            traveler who travels <br />
+            often for a wonderful experiences.
+          </p>
+          <div class="pt-5 flex lg:mt-0 lg:flex-shrink-0">
+            <div class="inline-flex rounded-md shadow">
+              <button class="font-bold bg-blue-500 w-28 h-11 rounded-full text-white">
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="image-head py-4 pl-10">
+          <img src="assets/main-image.jpg" class="w-128 rounded-xl" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- content -->
+  <div class="content-booking bg-gradient-to-r from-purple-400 to-pink-300 relative h-72">
+    <div class="container mx-auto absolute -bottom-28">
+      <div class="container-card md:flex justify-center">
+        <img class="relative" src="assets/Jumbotron.png" alt="" srcset="">
+        <p class="text-white pl-6 bottom-24 absolute font-bold text-xl">Let’s Your Curiosity do the booking</p>
+        <button class="font-bold bg-white  w-44 h-10 rounded-full absolute bottom-11">
+          <span class="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">Book Now</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- gap -->
+  <div class="gap-container h-44">
+
+  </div>
+  <!-- Discover Nature Experiences -->
+  <div class="content-discover mt-12">
+    <div class="container mx-auto">
+      <div class="heading text-center">
+        <h3 class="text-3xl font-bold py-12">Discover Nature Experiences</h3>
+      </div>
+      <div class="container-card md:flex justify-center">
+        <div class="container-card pr-6">
+          <div class="bg-color1 w-56 h-64 rounded-xl shadow-xl">
+            <div class="image bg-slate-500 w-56 h-20 rounded-xl">
+              <img src="assets/Resort.png" alt="" srcset="">
+            </div>
+            <p class="text-slate-50 font-bold mt-20 pl-3 text-xl">Resort</p>
+          </div>
+        </div>
+        <div class="container-card">
+          <div class="bg-color2 w-56 h-64 rounded-xl shadow-xl">
+            <div class="image bg-slate-500 w-56 h-20 rounded-xl">
+              <img src="assets/Camping.png" alt="" srcset="">
+            </div>
+            <p class="text-slate-50 font-bold mt-20 pl-3 text-xl">Camping</p>
+          </div>
+        </div>
+        <div class="container-card pl-6">
+          <div class="bg-color3 w-56 h-64 rounded-xl shadow-xl">
+            <div class="image bg-slate-500 w-56 h-20 rounded-xl">
+              <img src="assets/Beach.png" alt="" srcset="">
+            </div>
+            <p class="text-slate-50 font-bold mt-20 pl-3 text-xl">Beach</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- card -->
+  <div class="content-card mt-16">
+    <div class="container mx-auto">
+      <div class="heading text-center">
+        <h3 class="text-3xl py-12 font-bold">Things you do on your stay</h3>
+      </div>
+      <div class="container-card md:flex flex-col">
+        <div class="container-column md:flex justify-center">
+          <div class="container-card pr-8">
+            <div class="bg-color1 w-80 h-80 rounded-xl relative shadow-2xl">
+              <img src="assets/NatureBridge.png" alt="" srcset="">
+              <p class="text-white pl-6 bottom-2 absolute font-bold text-xl">Nature Bridge</p>
+            </div>
+
+          </div>
+          <div class="container-card">
+            <div class="bg-color1 w-80 h-80 rounded-xl relative shadow-2xl">
+              <img src="assets/MountainClimb.png" alt="" srcset="">
+              <p class="text-white pl-6 bottom-2 absolute font-bold text-xl">Mountain Climbing</p>
+            </div>
+          </div>
+        </div>
+        <div class="container-column md:flex justify-center pt-9">
+          <div class="container-card pr-8">
+            <div class="bg-color1 w-80 h-80 rounded-xl relative shadow-2xl">
+              <img src="assets/ParaGliding.png" alt="" srcset="">
+              <p class="text-white pl-6 bottom-2 absolute font-bold text-xl">Paragliding</p>
+            </div>
+
+          </div>
+          <div class="container-card">
+            <div class="bg-color1 w-80 h-80 rounded-xl relative shadow-2xl">
+              <img src="assets/HotAirBallons.png" alt="" srcset="">
+              <p class="text-white pl-6 bottom-2 absolute font-bold text-xl">Hot Air Ballons</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Content Pay -->
+  <div class="content-pay bg-slate-100 relative h-56 mt-28">
+    <div class="container mx-auto absolute -bottom">
+      <div class="heading text-center">
+        <h3 class="text-3xl py-12 font-bold">Choose Your Packages</h3>
+      </div>
+      <div class="container-card md:flex justify-center">
+        <div class="container-pay pr-6">
+          <div class="card bg-gray-100 w-56 h-80 rounded-md border-2 border-white shadow-2xl">
+            <p class="text-xl py-6 font-bold pl-4">Basic</p>
+            <ul class="pl-4">
+              <li class="text-lg font-bold">> Resort</li>
+              <li class="text-lg font-bold">> Food</li>
+              <li class="text-lg font-bold">> Beach</li>
+            </ul>
+            <div class="container-btn flex justify-center items-center mt-80px">
+              <button class="font-bold bg-blue-500 w-40 h-11 rounded-lg text-white">
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container-pay">
+          <div class="card bg-gray-100 w-56 h-80 rounded-md border-2 border-white shadow-2xl">
+            <p class="text-xl py-6 font-bold pl-4">Premium</p>
+            <ul class="pl-4">
+              <li class="text-lg font-bold">> Resort</li>
+              <li class="text-lg font-bold">> Food</li>
+              <li class="text-lg font-bold">> Beach</li>
+              <li class="text-lg font-bold">> Camping</li>
+              <li class="text-lg font-bold">> Other</li>
+            </ul>
+            <div class="container-btn flex justify-center items-center mt-6">
+              <button class="font-bold bg-blue-500 w-40 h-11 rounded-lg text-white">
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container-pay pl-6">
+          <div
+            class="card bg-vipColor w-64 h-80 rounded-md border-2 border-white shadow-2xl flex justify-center text-center items-center flex-col">
+            <p class="text-xl py-12 font-bold text-white ">VIP</p>
+            <button class="font-extrabold bg-white text-blue-500 w-48 h-11 rounded-xl">
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- gap -->
+  <div class="gap-container h-96">
+
+  </div>
+  <!-- Testimoni -->
+
+
+  <!-- JS -->
+  <script src="../src/dist/js/script.js"></script>
+</body>
+
+</html>
