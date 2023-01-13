@@ -10,7 +10,9 @@ module.exports = {
         'color1': '#BC1A6E',
         'color2': '#CC2D4A',
         'color3': '#D93B30',
-        'vipColor' : '#A18CD1'
+        'vipColor' : '#A18CD1',
+        'faqColor': '##D1BFCB'
+
       },
       spacing:{
         '128' :'32rem',
